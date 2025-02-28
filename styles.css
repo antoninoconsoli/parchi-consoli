@@ -1,0 +1,389 @@
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url('img/hero-background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%; 
+}
+
+.hero-etna {
+  background-image: url('img/etna3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%; 
+}
+
+.hero-gran-paradiso {
+  background-image: url('img/paradiso.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%; 
+}
+
+.hero-pollino {
+  background-image: url('img/pollino.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%; 
+}
+
+.hero-dolomiti {
+  background-image: url('img/dolomiti.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%; 
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  width: 90%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 18px; 
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.parks {
+  margin: 40px;
+}
+
+.parks .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.parks .park {
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parks .park:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.parks .park img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.parks .park h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #708E39;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.immerse {
+  margin-bottom: 40px;
+}
+
+.immerse h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000; 
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.immerse p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  margin: 100px;
+  text-align: center;
+}
+
+
+.flora-fauna {
+  background-color: #FFF9EB;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+ 
+}
+
+.flora-fauna img {
+  width: 400px;
+  height: auto;
+ 
+}
+
+.flora-fauna h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E8B57; 
+  margin-bottom: 10px;
+}
+
+.flora-fauna p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+.activities {
+  background-color: #EFF5E5;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+ 
+}
+
+.activities img {
+  width: 400px;
+  height: auto;
+ 
+}
+
+.activities h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E8B57; 
+  margin-bottom: 10px;
+}
+
+.activities p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 100;
+  color: #A9A9A9;
+}
+
+footer a {
+  color: #A9A9A9;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+.content-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+ 
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.description {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.description h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E8B57; 
+  margin-bottom: 20px;
+}
+
+
+.content {
+  margin-bottom: 40px;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E8B57;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.content-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+ 
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+      font-size: 36px;
+  }
+
+  .hero-content p {
+      font-size: 16px;
+  }
+
+  .parks .grid {
+      grid-template-columns: 1fr;
+  }
+
+  .flora-fauna, .activities {
+      flex-direction: column;
+      max-width:300px ;
+      text-align: center;
+  }
+
+  .flora-fauna img, .activities img {
+      width: 100%;
+      max-width: 300px;
+  }
+
+  .content-img {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .description h2 {
+      font-size: 20px;
+  }
+
+  .content h2 {
+      font-size: 20px;
+  }
+
+  .content p {
+      font-size: 14px;
+  }
+}
